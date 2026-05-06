@@ -1,0 +1,78 @@
+// Información del portfolio. Edítala libremente.
+// Las imágenes viven en /src/assets y se importan como módulos para que
+// Vite las procese y emita con rutas relativas en el build (dist/).
+// Esto permite abrir dist/index.html con doble click sin servidor.
+
+import profileImg from '../assets/foto1.png'
+
+export const profile = {
+  name: 'Sergio Herrera',
+  role: 'Desarrollador de aplicaciones web',
+  tagline:
+    'Hago aplicaciones web con React, JavaScript y TypeScript. Vengo de atención al cliente, así que pienso primero en quien va a usar lo que construyo.',
+  location: 'San Cristóbal de La Laguna, Tenerife',
+  email: 'sergioherrerarodriguez7@gmail.com',
+  // Foto principal (Hero) — importada como módulo
+  photo: profileImg,
+  socials: {
+    github:   'https://github.com/tu-usuario',
+    linkedin: 'https://www.linkedin.com/in/tu-usuario',
+  },
+}
+
+export const stats = [
+  { label: 'Stack',     value: 'Full-stack' },
+  { label: 'Lenguajes', value: 'JS · TS · Python' },
+  { label: 'Ubicación', value: 'Tenerife' },
+]
+
+export const aboutText = [
+  'Soy desarrollador de aplicaciones web en formación. Trabajo sobre todo con React, JavaScript y TypeScript en frontend, y uso Python cuando toca meterme en backend.',
+  'Antes de dedicarme a esto pasé varios años en logística y atención al cliente. De ahí me llevo lo que más se nota cuando entras a un equipo técnico: saber resolver problemas bajo presión, comunicarte con claridad y entender qué necesita la persona que va a usar lo que estás construyendo.',
+  'Ahora mismo estoy cerrando mi formación con proyectos reales, como un sistema de inventario para un centro educativo y un chatbot empresarial que genera presupuestos automáticos. Busco mi primera oportunidad como desarrollador para aportar lo que sé y seguir aprendiendo dentro de un buen equipo.',
+]
+
+// Skills agrupadas en 4 categorías. Sin niveles (uniformes).
+export const skills = {
+  Frontend: [
+    'React',
+    'JavaScript (ES6+)',
+    'TypeScript',
+    'HTML5',
+    'CSS3',
+    'Diseño responsive',
+  ],
+  Backend: [
+    'Python',
+    'APIs REST',
+    'Bases de datos relacionales',
+  ],
+  'Automatización y herramientas': [
+    'n8n',
+    'Git',
+    'GitHub',
+    'VS Code',
+  ],
+  Otras: [
+    'Atención al cliente',
+    'Resolución de problemas',
+    'Trabajo en equipo',
+  ],
+}
+
+export const projects = [
+  {
+    title: 'SmartEconomat',
+    subtitle: 'Proyecto Final de Ciclo',
+    description:
+      'Sistema web de control de inventario para el economato del IES La Candelaria. El centro gestionaba el stock con hojas de cálculo, lo que provocaba errores de conteo y mucho tiempo perdido. SmartEconomat centraliza la gestión de productos, controla el stock en tiempo real y registra entradas y salidas, con una interfaz pensada para que la use cualquier persona sin conocimientos técnicos.',
+    tags: ['React', 'JavaScript', 'Tailwind CSS', 'REST API', 'Node.js', 'Express', 'PostgreSQL'],
+  },
+  {
+    title: 'Chatbot empresarial',
+    subtitle: 'Automatización con n8n',
+    description:
+      'Chatbot empresarial montado sobre n8n para automatizar la atención al cliente. Resuelve dudas sobre productos, guía al usuario durante la compra y genera presupuestos automáticos a partir de la conversación. Pensado para integrarse en el flujo de una empresa real, da respuesta inmediata las 24 horas y libera al equipo humano de las tareas repetitivas.',
+    tags: ['n8n', 'JavaScript', 'APIs REST', 'Automatización', 'Integración con IA'],
+  },
+]
