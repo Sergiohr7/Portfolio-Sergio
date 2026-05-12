@@ -89,6 +89,18 @@ function ProjectCard({ project, index }) {
         {project.description}
       </p>
 
+      {/* Highlights (opcionales) */}
+      {project.highlights && project.highlights.length > 0 && (
+        <ul className="space-y-1.5 text-sm text-slate-300">
+          {project.highlights.map((h) => (
+            <li key={h} className="flex gap-2 leading-relaxed">
+              <span className="text-brand-400 shrink-0 mt-0.5">▸</span>
+              <span>{h}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+
       {/* Tags */}
       <ul className="flex flex-wrap gap-2 mt-auto">
         {project.tags.map((t) => (

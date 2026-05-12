@@ -12,7 +12,7 @@ export const profile = {
     'Hago aplicaciones web con React, JavaScript y TypeScript. Vengo de atención al cliente, así que pienso primero en quien va a usar lo que construyo.',
   location: 'San Cristóbal de La Laguna, Tenerife',
   email: 'sergioherrerarodriguez7@gmail.com',
-  // Foto principal (Hero) — importada como módulo
+  // Foto principal (Hero), importada como módulo
   photo: profileImg,
   socials: {
     github:   'https://github.com/tu-usuario',
@@ -63,10 +63,15 @@ export const skills = {
 export const projects = [
   {
     title: 'SmartEconomat',
-    subtitle: 'Proyecto Final de Ciclo',
+    subtitle: 'Proyecto Final de Ciclo · Aplicación full-stack',
     description:
-      'Sistema web de control de inventario para el economato del IES La Candelaria. El centro gestionaba el stock con hojas de cálculo, lo que provocaba errores de conteo y mucho tiempo perdido. SmartEconomat centraliza la gestión de productos, controla el stock en tiempo real y registra entradas y salidas, con una interfaz pensada para que la use cualquier persona sin conocimientos técnicos.',
-    tags: ['React', 'JavaScript', 'Tailwind CSS', 'REST API', 'Node.js', 'Express', 'PostgreSQL'],
+      'Aplicación full-stack para la gestión integral del economato del IES La Candelaria. Cubre el ciclo completo de operación: catálogo de productos y proveedores, pedidos de compra, recepción con albaranes, control de inventario multilote con estrategia FEFO, escandallo y producción de recetas, distribución a aulas, facturación y panel de control. Monorepo NestJS + React 19 con más de 120.000 líneas de código, RBAC granular, internacionalización, exportación documental a PDF y Excel, y lectura de códigos de barras integrada con OpenFoodFacts.',
+    highlights: [
+      '759 commits en 6 meses con flujo Git Flow y Pull Requests',
+      '120+ tests automatizados (unitarios, integración y E2E)',
+      'Pipeline CI/CD con GitHub Actions, Docker y monitorización con Sentry',
+    ],
+    tags: ['React', 'TypeScript', 'NestJS', 'PostgreSQL', 'TypeORM', 'Redis', 'Material-UI', 'Redux Toolkit', 'JWT', 'Docker', 'GitHub Actions', 'Jest', 'Vitest', 'Playwright'],
   },
   {
     title: 'Chatbot empresarial',
