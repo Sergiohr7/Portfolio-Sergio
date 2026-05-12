@@ -27,9 +27,9 @@ export const stats = [
 ]
 
 export const aboutText = [
-  'Soy desarrollador de aplicaciones web en formación. Trabajo sobre todo con React, JavaScript y TypeScript en frontend, y uso Python cuando toca meterme en backend.',
+  'Soy desarrollador de aplicaciones web en formación. Trabajo sobre todo con React y TypeScript en frontend, y con NestJS, Node.js y PostgreSQL en backend. Me defiendo también con Python.',
   'Antes de dedicarme a esto pasé varios años en logística y atención al cliente. De ahí me llevo lo que más se nota cuando entras a un equipo técnico: saber resolver problemas bajo presión, comunicarte con claridad y entender qué necesita la persona que va a usar lo que estás construyendo.',
-  'Ahora mismo estoy cerrando mi formación con proyectos reales, como un sistema de inventario para un centro educativo y un chatbot empresarial que genera presupuestos automáticos. Busco mi primera oportunidad como desarrollador para aportar lo que sé y seguir aprendiendo dentro de un buen equipo.',
+  'Mi proyecto principal hasta la fecha es SmartEconomat, una aplicación full-stack para la gestión integral de un economato educativo, desarrollada con Git Flow, testing automatizado en pirámide y pipeline de CI/CD. Busco mi primera oportunidad como desarrollador para aportar lo que sé y seguir aprendiendo dentro de un buen equipo.',
 ]
 
 // Skills agrupadas por categoría. Sin niveles (uniformes).
