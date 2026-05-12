@@ -32,31 +32,68 @@ export const aboutText = [
   'Ahora mismo estoy cerrando mi formación con proyectos reales, como un sistema de inventario para un centro educativo y un chatbot empresarial que genera presupuestos automáticos. Busco mi primera oportunidad como desarrollador para aportar lo que sé y seguir aprendiendo dentro de un buen equipo.',
 ]
 
-// Skills agrupadas en 4 categorías. Sin niveles (uniformes).
+// Skills agrupadas por categoría. Sin niveles (uniformes).
 export const skills = {
   Frontend: [
     'React',
-    'JavaScript (ES6+)',
     'TypeScript',
+    'JavaScript (ES6+)',
+    'Vite',
+    'Material-UI',
+    'Redux Toolkit',
+    'React Router',
     'HTML5',
     'CSS3',
+    'Tailwind CSS',
+    'i18next',
     'Diseño responsive',
   ],
   Backend: [
+    'NestJS',
+    'Node.js',
+    'TypeORM',
+    'PostgreSQL',
+    'Redis',
+    'JWT',
+    'REST API',
+    'class-validator',
+    'Swagger/OpenAPI',
     'Python',
-    'APIs REST',
-    'Bases de datos relacionales',
   ],
-  'Automatización y herramientas': [
-    'n8n',
+  Testing: [
+    'Jest',
+    'Vitest',
+    'React Testing Library',
+    'Playwright',
+    'Supertest',
+  ],
+  'DevOps y herramientas': [
     'Git',
     'GitHub',
-    'VS Code',
+    'GitHub Actions',
+    'Docker',
+    'Docker Compose',
+    'Nginx',
+    'Sentry',
+    'Husky',
+    'ESLint',
+    'Prettier',
+    'n8n',
+  ],
+  Metodologías: [
+    'Git Flow',
+    'Pull Requests',
+    'Code reviews',
+    'Testing en pirámide',
+    'RBAC',
+    'Internacionalización',
+    'Documentación técnica',
   ],
   Otras: [
     'Atención al cliente',
     'Resolución de problemas',
     'Trabajo en equipo',
+    'Comunicación clara',
   ],
 }
 
